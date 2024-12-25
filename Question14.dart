@@ -1,8 +1,6 @@
-void greet(String name, [String message = "Welcome"]) {
-  print('Hello $name, $message');
-}
-
 void main() {
-  greet("Alice");
-  greet("Bob", "Good Morning");
+  List<int> squaring = [1, 2, 3, 4, 5];
+  squaring.forEach((number) {
+    print(number * number);
+  });
 }
